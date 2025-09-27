@@ -1,0 +1,5 @@
+{
+  "name": "Moroccan Smart Contract Solution",
+  "description": "A demo MVP showcasing how Moroccan businesses can create, sign, and track smart contracts using a mocked Hedera Hashgraph integration. This application is designed for the Hedera competition to demonstrate the potential of blockchain for secure and transparent agreements.",
+  "requestFramePermissions": []
+}

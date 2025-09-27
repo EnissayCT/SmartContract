@@ -22,8 +22,8 @@ const LandingPage: React.FC = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-4xl bg-white rounded-lg shadow-md p-8 flex flex-col md:flex-row items-center md:items-start gap-6">
                         <div className="flex-shrink-0">
-                            <div className="h-14 w-14 rounded-md bg-secondary/10 flex items-center justify-center">
-                                <HederaIcon className="h-8 w-8 text-secondary" />
+                            <div className="flex items-center justify-center">
+                                <HederaIcon className="h-20 w-auto" /> {/* Bigger and responsive */}
                             </div>
                         </div>
                         <div className="flex-1 text-center md:text-left">

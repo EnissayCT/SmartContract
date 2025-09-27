@@ -7,6 +7,7 @@ import DashboardPage from './pages/DashboardPage';
 import ContractDetailPage from './pages/ContractDetailPage';
 import Navbar from './components/layout/Navbar';
 
+
 const AppRouter: React.FC = () => {
     const [route, setRoute] = useState(window.location.hash);
     const { user, loading } = useAuth();
@@ -49,7 +50,7 @@ const AppRouter: React.FC = () => {
 
     return (
         <div className="min-h-screen bg-light text-primary">
-            {user && <Navbar />}
+            <Navbar />
             <main>{renderContent()}</main>
         </div>
     );
